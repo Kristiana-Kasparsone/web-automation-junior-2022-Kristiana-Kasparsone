@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"c795b8a5786c1c79a7a608187850232a","name":"SignUp tests: Fail registration","statistic":{"failed":0,"broken":1,"skipped":4,"passed":5,"unknown":0,"total":10}},{"uid":"00671b662945fcb981473c0757654765","name":"SignUp tests: Register a new user","statistic":{"failed":0,"broken":0,"skipped":0,"passed":9,"unknown":0,"total":9}}]}

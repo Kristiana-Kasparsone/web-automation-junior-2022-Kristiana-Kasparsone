@@ -1,0 +1,154 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1667764008379' stop='1667764021712'>
+    <name>SignUp tests: Fail registration</name>
+    <title>SignUp tests: Fail registration</title>
+    <test-cases>
+        <test-case start='1667764008380' status='passed' stop='1667764008380'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1667764008380' status='passed' stop='1667764016764'>
+            <name>Given User has opened the landing page</name>
+            <title>Given User has opened the landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1667764016764' status='passed' stop='1667764019594'>
+            <name>And User presses the Sign In button</name>
+            <title>And User presses the Sign In button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1667764019594' status='passed' stop='1667764019720'>
+            <name>When User enters a new email address</name>
+            <title>When User enters a new email address</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1667764019720' status='passed' stop='1667764019765'>
+            <name>And User presses Create account button</name>
+            <title>And User presses Create account button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1667764019765' status='broken' stop='1667764021712'>
+            <name>And User fills in incorrect mandatory user details</name>
+            <title>And User fills in incorrect mandatory user details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Option with attribute "value=2" not found.</message>
+                <stack-trace>Error: Option with attribute "value=2" not found.
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async SignUpTest.fillOutIncorrectForm (/Users/kristiana.kaparsone/testDevLab/web-automation-junior-2022-Kristiana-Kasparsone/features/test-objects/signUpTests.js:38:5)
+                    at async World.&lt;anonymous> (/Users/kristiana.kaparsone/testDevLab/web-automation-junior-2022-Kristiana-Kasparsone/features/step-definitions/signUpSteps.js:16:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1667764021712' status='pending' stop='1667764021712'>
+            <name>And User presses the Register button</name>
+            <title>And User presses the Register button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1667764021712' status='pending' stop='1667764021712'>
+            <name>Then User is logged in</name>
+            <title>Then User is logged in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1667764021712' status='pending' stop='1667764021712'>
+            <name>And User is in My account page</name>
+            <title>And User is in My account page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1667764021712' status='passed' stop='1667764021712'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
